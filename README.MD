@@ -21,4 +21,4 @@ docker exec -it mysql bash -p
 ```bash
 mysql -u root -p -h 127.0.0.1
 ```
-- パスワードは1234
+- パスワードはroot

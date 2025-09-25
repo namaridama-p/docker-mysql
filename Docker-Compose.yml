@@ -6,5 +6,5 @@ services:
       - ./mysql/DB:/docker-entrypoint-initdb.d  #初期データをマウントする場所
     container_name: mysql  #コンテナ名
     environment:
-      - MYSQL_ROOT_PASSWORD=1234  #コンテナ内のMySQLを起動する際のパスワードを設定
+      - MYSQL_ROOT_PASSWORD=root  #コンテナ内のMySQLを起動する際のパスワードを設定
       
